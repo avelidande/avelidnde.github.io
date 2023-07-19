@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Personal Achievments</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li class="fluid nav_ul_li"><a href="perporthome.html">About Me</a></li>
+			  <li class="fluid nav_ul_li"><a href="perporteducation.html">Education</a></li>
+			  <li class="fluid nav_ul_li"><a href="perportpersonalachieve.html">Personal acheivments</a></li>
+			  <li class="fluid nav_ul_li"><a href="perporthobbies&interests.html">Hobbies and Interests</a></li>
+			  <li class="fluid nav_ul_li"><a href="perportcontactme.html">Contact Me</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <p>		I have had the opportunity to work with a team to raise money for blood cancer as a part of a non-profit organization called Leukemia Lymphoma Society. Me and my team were responsible for raising over $5,000. This experience allowed me to further develop my leadership and soft skills while contributing to the success of the team. I have also engaged in DECA and FBLA, both are business and marketing competitions. For DECA I went to states and for FBLA I won 3rd place at regionals. 
+
+</p>
+	<center> <img src="imgfbla.jpg" alt="FBLA Medal" ></center>
+    
+  </article>
+</section>
+
+<footer>
+</footer>
+
+</body>
+</html>
+
+
